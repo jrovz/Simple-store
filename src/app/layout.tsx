@@ -24,7 +24,7 @@ export default function RootLayout({
 
               <Link href = "/">
               <li>Home</li>
-              </Link>
+             </Link>
               <Link href = "/store">
               <li>Store</li>
               </Link>
