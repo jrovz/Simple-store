@@ -1,11 +1,26 @@
-import { Inter } from "next/font/google"
-import { Header } from 'app/components/shared/Header'
+"use client"
 
-export default function layout({ children }: {children: React.ReactNode}){
-    return(
-        <main>
-            <nav>Navegaciòn de las categorias </nav>
-            {children}
-        </main>
-    )
+import { Inter } from "next/font/google";
+import { Footer } from "../components/shared/Footer";
+import { Header } from "../components/shared/Header";
+
+const inter = Inter({ subsets: ["latin"] });
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en">
+      <body className={inter.className}>
+        <Header />
+        {children}
+        <Footer />
+          
+                
+        
+      </body>
+    </html>
+  );
 }
