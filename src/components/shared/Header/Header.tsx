@@ -1,8 +1,9 @@
+import styles from './Header.module.css'
 import Link from "next/link";
 
 export const Header = () => {
     return(
-        <header>
+        <header className='styles.Header'>
           <nav>
             <ul>
 
