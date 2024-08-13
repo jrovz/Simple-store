@@ -1,5 +1,4 @@
-import styles from './Hero.module.sass'
-
+import styles from "./Hero.module.sass"
 export const Hero = () => {
     console.log(styles)
     return(

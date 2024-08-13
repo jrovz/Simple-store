@@ -13,3 +13,9 @@
     font-size: 1.2rem;
     font-weight: 400;
 }
+
+.icons{
+    display: flex;
+    background-color: none;
+    border-style: none;
+}
