@@ -12,8 +12,14 @@ export default function Home() {
       
       <Description />
       
+      
       <MainProducts />
+
+      <Gallery />
+      
       <Footer />
+
+      
     </main>
   );
 }

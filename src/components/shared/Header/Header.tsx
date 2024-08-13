@@ -20,6 +20,17 @@ export const Header = () => {
               
             </ul>
           </nav>
+          <nav>
+            <button className="profile">
+              <svg></svg>
+            </button>
+            <button className="wishlist">
+              <svg></svg>
+            </button>
+            <button className="cart">
+              <svg></svg>
+            </button>
+          </nav>
         </header>
     )
 }
