@@ -3,6 +3,11 @@
     height: auto
     padding: 60px
     padding-bottom: 60px
+    & > h1
+        padding-bottom: 60px
+        color: $primaryTextColor
+        font-size: 2em
+        font-style: italic
     &__cardSection
         display: flex
         width: auto
@@ -12,12 +17,9 @@
         column-gap: 200px
         row-gap: 80px
         flex-wrap: wrap
-        & > h1
-            
-            color: $primaryTextColor
-            font-size: 2em
+        
     &__card
-        width: 13vw
+        width: 15vw
         height: auto
         background-color: $secondaryColor
         color: #FFFF
@@ -43,8 +45,10 @@
             height: 30vh
             object-fit: cover
     &__ref
-        & > h3
+        display: flex
+        width: 100%
+        justify-content: center
+        & > h2
             font-weight: 300
-            padding-bottom: 20px
         
 
