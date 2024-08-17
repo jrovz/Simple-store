@@ -1,0 +1,50 @@
+.MainProducts
+    width: auto
+    height: auto
+    padding: 60px
+    padding-bottom: 60px
+    &__cardSection
+        display: flex
+        width: auto
+        height: auto
+        justify-content: center
+        align-items: center
+        column-gap: 200px
+        row-gap: 80px
+        flex-wrap: wrap
+        & > h1
+            
+            color: $primaryTextColor
+            font-size: 2em
+    &__card
+        width: 13vw
+        height: auto
+        background-color: $secondaryColor
+        color: #FFFF
+        border-radius: 5px
+    &__button
+        width: 100%
+        display: flex
+        justify-content: flex-end
+        padding-bottom: 8px
+        button
+            background-color: $secondaryColor
+            background: none
+            border: none
+    &__image
+        width: 100%
+        height: auto
+        display: flex
+        justify-content: center
+        align-items: center
+        & > img 
+            border-radius: 10px
+            width: 10vw
+            height: 30vh
+            object-fit: cover
+    &__ref
+        & > h3
+            font-weight: 300
+            padding-bottom: 20px
+        
+

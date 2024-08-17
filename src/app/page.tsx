@@ -9,12 +9,12 @@ export default function Home() {
   return (
     <main>
       
-      
+      <MainProducts />
       
       <Description />
       
       
-      <MainProducts />
+      
 
       <Gallery />
       
