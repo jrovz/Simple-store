@@ -4,7 +4,9 @@ import styles from './Header.module.sass'
 export const Header = () => {
     return(
         <header>
-          
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+	        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	        <link href="https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap" rel="stylesheet" />  
           <nav>
             <ul className={styles.Header__list}>
               <div>
