@@ -18,9 +18,6 @@ export const Description = () => {
                         de la "moda", porque el toque mas importante siempre lo da nuestra actitud.
                     </p>
                     <p>
-                        Nuestras prendas tienen la capacidad de adaptarse y ser un buen complemento para cualquier mood.
-                    </p>
-                    <p>
                         Productos 100% de emprendimientos colombianos
                     </p>
                     <button>Conoce más</button>

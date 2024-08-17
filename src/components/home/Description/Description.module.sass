@@ -1,5 +1,5 @@
 .Description
-    display: grid
+    display: flex
     grid-template-columns: 1fr 1fr
     column-gap: 2.25rem
     margin: 6rem auto
@@ -8,21 +8,25 @@
     border-radius: 40px
     height: 500px
     background-color: #FFFF
+    justify-content: space-between
+    border: 3px solid black
     &__image
-        & > img         
+        & > img      
+            
             object-fit: cover
             border-radius: 1rem
             box-shadow: 0 0 4rem rgba(255, 255, 255, 0.2)
             height: 500px 
             border-radius: 19px
     &__about
+        padding-top: 20px
         & > h2
-            font-size: rem
+            font-size: 3.5em
             font-weight: 600
             color: $fouthColor
             margin: 0
         & > p
-            font-size: 1.5rem
+            font-size: 2rem
             line-height: 1.75
             color: $fouthColor
         & > button
