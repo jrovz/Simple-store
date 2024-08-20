@@ -1,9 +1,20 @@
+import { Grey_Qo } from 'next/font/google'
 import styles from "./MainProducts.module.sass"
+
+
+const grey_qo = Grey_Qo({
+    weight: ["400"],
+    subsets: ['latin']
+  
+  })
+
 
 export const MainProducts = () => {
     return(
         <section className={styles.MainProducts}>
-            <h1>Nuestras Prendas</h1>
+            <h1 className={grey_qo.className}>
+                Nuestras Prendas
+            </h1>
             <div className={styles.MainProducts__cardSection}>
                 
                 <div className={styles.MainProducts__card}>
