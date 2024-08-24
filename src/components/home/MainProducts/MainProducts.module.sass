@@ -1,9 +1,9 @@
 .MainProducts
     width: auto
     height: auto
-    padding-left: 30em
-    padding-right: 30em
-    padding-bottom: 20em
+    padding-left: 7vw
+    padding-right: 7vw
+    padding-bottom: 7vw
     
     & > h1
         padding-bottom: 60px
@@ -11,21 +11,29 @@
         font-size: 8em
         
     &__cardSection
+        //grid-template-columns: 1fr 1fr 1fr
+        padding-left: 10vw
         display: flex
-        width: 3000px
+        //grid-auto-flow: column
+        //overflow-y: scroll
+        //content: initial
+        //gap: 10px
+        width: 80%
         height: auto
         justify-content: center
         align-items: center
-        column-gap: 200px
+        column-gap: 300px
         row-gap: 80px
         flex-wrap: wrap
+        object-fit: cover
+
         
     &__card
-        width: 16vw
-        height: auto
+        width: 12.5vw
+        height: 38vh
         background-color: $secondaryColor
         color: #FFFF
-        border-radius: 5px
+        border-radius: 15px
     &__button
         width: 100%
         display: flex
