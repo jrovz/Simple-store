@@ -14,9 +14,7 @@ export default function Home() {
       <Description />
       
       
-      <Gallery />
-      
-      <Footer />
+        
 
       
     </main>
